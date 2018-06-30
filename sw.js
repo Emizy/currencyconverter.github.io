@@ -1,13 +1,21 @@
 /*********************************************************
- * Author: Ogunrinde Eunice Modupe
- *
- * ALC Offline first Currency Converter Services Worker
+ * Author: ADENITIRE AYOMIKUN JOSEPH
+ *location: Nigeria
+ * ALC 3.0 OFFLINE FIRST / SERVICE WORKER
  **********************************************************/
 
 // register cache name
-var appCacheName = 'alcfx-static-v1';
+var appCacheName = 'alcCon-static-v1';
 var appCacheAssets = [
-
+    'https://emizy.github.io/currencyconverter.github.io/',
+    'https://emizy.github.io/currencyconverter.github.io/index.html',
+    'https://emizy.github.io/currencyconverter.github.io/css/bootstrap.min.css',
+    'https://emizy.github.io/currencyconverter.github.io/img/bg2.jpg',
+    'https://emizy.github.io/currencyconverter.github.io/img/bg.jpg',
+    'https://emizy.github.io/currencyconverter.github.io/img/Thumbs.db',
+    'https://emizy.github.io/currencyconverter.github.io/img/1.jpg',
+    'https://emizy.github.io/currencyconverter.github.io/js/app.js',
+    
     'https://fonts.googleapis.com/icon?family=Material+Icons',
     'https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css',
     'https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js',
